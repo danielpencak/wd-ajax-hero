@@ -18,6 +18,11 @@ main {
   max-width: 100%;
 }
 
+.toast {
+  background-color: #EC6F75;
+  border-radius: 20px;
+}
+
 #omdb {
   text-decoration: underline;
 }
