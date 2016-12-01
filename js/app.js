@@ -5,6 +5,7 @@
 
   const renderMovies = function() {
     $('#listings').empty();
+    $('material-tooltip').remove();
 
     for (const movie of movies) {
       const $col = $('<div>').addClass('col s6');
